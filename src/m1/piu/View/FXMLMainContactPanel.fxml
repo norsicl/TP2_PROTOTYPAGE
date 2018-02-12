@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.View.FXMLMainContactPanel">
+   <children>
+      <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact" />
+      <Text layoutX="118.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mr. Toto Toto" wrappingWidth="227.0" />
+      <Text layoutX="14.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Type" />
+      <ComboBox layoutX="118.0" layoutY="45.0" prefHeight="31.0" prefWidth="227.0" promptText="Private" />
+      <TabPane layoutY="82.0" prefHeight="366.0" prefWidth="350.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Identity">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="335.0" prefWidth="350.0" />
+            </content>
+          </Tab>
+          <Tab text="Phones">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab text="Adress">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button layoutX="212.0" layoutY="462.0" mnemonicParsing="false" text="Cancel" />
+      <Button layoutX="297.0" layoutY="462.0" mnemonicParsing="false" text="Ok" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="160.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.View.FXMLTableAdress">
+   <children>
+      <Text layoutX="10.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Street" />
+      <Text layoutX="10.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City" />
+      <Text layoutX="10.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Postal Code" />
+      <TextField layoutX="105.0" layoutY="9.0" prefHeight="31.0" prefWidth="240.0" />
+      <TextField layoutX="105.0" layoutY="63.0" prefHeight="31.0" prefWidth="240.0" />
+      <TextField layoutX="105.0" layoutY="113.0" prefHeight="31.0" prefWidth="240.0" />
+   </children>
+</AnchorPane>
