@@ -6,10 +6,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <MenuBar layoutY="-1.0" prefHeight="32.0" prefWidth="600.0">
+      <MenuBar layoutY="-1.0" prefHeight="32.0" prefWidth="1200.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -28,7 +27,7 @@
           </Menu>
         </menus>
       </MenuBar>
-      <ToolBar layoutY="31.0" prefHeight="45.0" prefWidth="600.0">
+      <ToolBar layoutY="31.0" prefHeight="45.0" prefWidth="1200.0">
         <items>
           <Button mnemonicParsing="false" text="Button" />
             <Button mnemonicParsing="false" text="Button" />
