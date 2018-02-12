@@ -36,7 +36,8 @@
             <Button mnemonicParsing="false" text="Button" />
         </items>
       </ToolBar>
-       <fx:include source="FXMLMainPanel.fxml"/>
       <TextField layoutX="5.0" layoutY="686.0" prefHeight="31.0" prefWidth="1190.0" text="Select contact : Toto Toto" />
+      <Pane fx:id="include_panel" layoutX="5.0" layoutY="76.0" prefHeight="604.0" prefWidth="1200.0">
+      </Pane>
    </children>
 </Pane>
