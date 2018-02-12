@@ -15,18 +15,6 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.image.Image ;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
-import model.InterfaceModelProperty;
-import org.apache.commons.imaging.ImageReadException;
-import org.apache.commons.imaging.Imaging;
-import org.apache.commons.imaging.common.IImageMetadata;
-import org.apache.commons.imaging.formats.jpeg.JpegImageMetadata;
-import org.apache.commons.imaging.formats.jpeg.iptc.IptcRecord;
-import org.apache.commons.imaging.formats.tiff.TiffField;
-import org.apache.commons.imaging.formats.tiff.constants.AdobePhotoshopTagConstants;
-import org.apache.commons.imaging.formats.tiff.constants.ExifTagConstants;
-import org.apache.commons.imaging.formats.tiff.constants.MicrosoftTagConstants;
-import org.apache.commons.imaging.formats.tiff.constants.TiffTagConstants;
-import org.apache.commons.imaging.formats.tiff.taginfos.TagInfo;
 
 public class Controller {
 
