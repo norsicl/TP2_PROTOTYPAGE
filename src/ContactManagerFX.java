@@ -14,7 +14,7 @@ public class ContactManagerFX extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         // soit on peut prendre le Interface_FB_LN.fxml
-        Parent root = FXMLLoader.load(getClass().getResource("view/FXMLFrame.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainFrame.fxml"));
         Scene scene = new Scene(root, 1200, 720);
         primaryStage.setTitle("Contact manager");
         primaryStage.setScene(scene);

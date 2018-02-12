@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="FXMLMainPanel"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="607.0" prefWidth="1166.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLMainPanel">
+   <children>
+      <TableView layoutX="337.0" layoutY="19.0" prefHeight="130.0" prefWidth="803.0">
+        <columns>
+          <TableColumn prefWidth="185.0" text="Last Name" />
+          <TableColumn prefWidth="261.0" text="First Name " />
+            <TableColumn prefWidth="355.0" text="Email" />
+        </columns>
+      </TableView>
+      <ListView layoutX="14.0" layoutY="44.0" prefHeight="534.0" prefWidth="309.0" />
+      <Label layoutX="14.0" layoutY="19.0" text="Address books" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="419.0" layoutX="337.0" layoutY="157.0" stroke="#000000a1" strokeType="INSIDE" width="803.0" />
+      <Line endX="100.0" layoutX="448.0" layoutY="187.0" startX="-100.0" />
+      <Label layoutX="475.0" layoutY="166.0" text="Toto" />
+      <Text layoutX="348.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact details :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="21.0" layoutX="354.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="21.0" layoutX="353.0" layoutY="386.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="21.0" layoutX="630.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="494.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="94.0" layoutX="354.0" layoutY="243.0" stroke="#000000a1" strokeType="INSIDE" width="201.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="94.0" layoutX="354.0" layoutY="415.0" stroke="#000000a1" strokeType="INSIDE" width="201.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="266.0" layoutX="630.0" layoutY="243.0" stroke="#000000a1" strokeType="INSIDE" width="494.0" />
+      <Button layoutX="1010.0" layoutY="468.0" mnemonicParsing="false" text="See on map" />
+      <Text layoutX="359.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Identity" />
+      <Text layoutX="353.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone numbers" />
+      <Text layoutX="639.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <Text layoutX="370.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" />
+      <Text layoutX="370.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :" />
+      <Text layoutX="370.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :" />
+      <Text layoutX="363.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile :" />
+      <Text layoutX="363.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Office :" />
+      <Label layoutX="657.0" layoutY="271.0" text="000 The Street" />
+      <Label layoutX="657.0" layoutY="301.0" prefHeight="21.0" prefWidth="113.0" text="00 000 The city" />
+      <Label layoutX="431.0" layoutY="252.0" text="Mr. Toto Toto" />
+      <Label layoutX="429.0" layoutY="284.0" text="30" />
+      <Label layoutX="429.0" layoutY="312.0" text="toto.toto@toto.fr" />
+      <Label layoutX="423.0" layoutY="433.0" text="06 06 06 06 06" />
+      <Label layoutX="419.0" layoutY="474.0" text="04 04 04 04 04" />
+   </children>
 </AnchorPane>
