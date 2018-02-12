@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="209.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.View.FXMLTablePhones">
+   <children>
+      <TableView layoutY="1.0" prefHeight="200.0" prefWidth="255.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Prefix" />
+          <TableColumn prefWidth="111.0" text="Number" />
+            <TableColumn prefWidth="68.0" text="Type" />
+        </columns>
+      </TableView>
+      <Button layoutX="262.0" layoutY="3.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Add" />
+      <Button layoutX="262.0" layoutY="57.0" mnemonicParsing="false" text="Remove" />
+      <Button layoutX="262.0" layoutY="113.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Up" />
+      <Button layoutX="262.0" layoutY="170.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Down" />
+   </children>
+</AnchorPane>
