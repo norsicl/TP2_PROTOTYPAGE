@@ -37,6 +37,10 @@
         </items>
       </ToolBar>
       <TextField layoutX="5.0" layoutY="686.0" prefHeight="31.0" prefWidth="1190.0" text="Select contact : Toto Toto" />
-       <fx:include id="mainPanel" source="FXMLMainPanel.fxml"/>
+      <Pane layoutX="5.0" layoutY="76.0" prefHeight="601.0" prefWidth="1190.0">
+         <children>
+             <fx:include id="mainPanel" source="FXMLMainPanel.fxml" />
+         </children>
+      </Pane>
    </children>
 </Pane>
