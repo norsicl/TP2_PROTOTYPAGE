@@ -19,16 +19,19 @@
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="335.0" prefWidth="350.0" />
             </content>
+              <fx:include id="identity" source="FXMLTableIdentity.fxml"/>
           </Tab>
           <Tab text="Phones">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
             </content>
+              <fx:include id="Phones" source="FXMLTablePhones.fxml"/>
           </Tab>
             <Tab text="Adress">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                </content>
+                <fx:include id="Adress" source="FXMLTableAdress.fxml"/>
             </Tab>
         </tabs>
       </TabPane>
