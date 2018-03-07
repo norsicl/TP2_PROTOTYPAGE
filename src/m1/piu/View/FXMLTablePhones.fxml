@@ -15,7 +15,7 @@
             <TableColumn prefWidth="68.0" text="Type" />
         </columns>
       </TableView>
-      <Button layoutX="268.0" layoutY="6.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Add" />
+      <Button layoutX="268.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#openNewPhone" prefHeight="31.0" prefWidth="74.0" text="Add" />
       <Button layoutX="268.0" layoutY="60.0" mnemonicParsing="false" text="Remove" />
       <Button layoutX="268.0" layoutY="116.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Up" />
       <Button layoutX="268.0" layoutY="173.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Down" />
