@@ -17,12 +17,12 @@ public class ControllerTablePhones {
         Parent root = null;
         Stage primaryStage = new Stage();
         try {
-            root = FXMLLoader.load(getClass().getResource("../View/FXMLTablePhones.fxml"));
+            root = FXMLLoader.load(getClass().getResource("../View/FXMLAddNewPhone.fxml"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         //Parent children = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainPanel.fxml"));
-        Scene scene = new Scene(root, 1200, 720);
+        Scene scene = new Scene(root, 320, 220);
 
         primaryStage.setTitle("Contact manager");
         primaryStage.setScene(scene);

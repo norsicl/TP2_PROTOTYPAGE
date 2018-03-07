@@ -18,7 +18,7 @@ public class ControllerMainFrame {
             e.printStackTrace();
         }
         //Parent children = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainPanel.fxml"));
-        Scene scene = new Scene(root, 800, 400);
+        Scene scene = new Scene(root, 380, 360);
 
         primaryStage.setTitle("Contact manager");
         primaryStage.setScene(scene);
