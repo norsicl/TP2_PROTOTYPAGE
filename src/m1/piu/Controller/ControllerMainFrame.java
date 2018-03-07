@@ -1,14 +1,19 @@
 package m1.piu.Controller;
 
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class ControllerMainFrame {
+
+public class ControllerMainFrame  {
+
+
     public void openContactPanel(MouseEvent mouseEvent) {
         Parent root = null;
         Stage primaryStage = new Stage();
@@ -17,7 +22,7 @@ public class ControllerMainFrame {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //Parent children = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainPanel.fxml"));
+
         Scene scene = new Scene(root, 800, 400);
 
         primaryStage.setTitle("Contact manager");
@@ -26,5 +31,6 @@ public class ControllerMainFrame {
 
 
         primaryStage.show();
+
     }
 }
