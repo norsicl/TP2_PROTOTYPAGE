@@ -29,11 +29,11 @@
       </MenuBar>
       <ToolBar layoutY="31.0" prefHeight="45.0" prefWidth="1200.0">
         <items>
-          <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
+          <Button mnemonicParsing="false" text="New contact" />
+            <Button mnemonicParsing="false" text="Edit Contact" />
+            <Button mnemonicParsing="false" text="Remove Contact" />
             <TextField />
-            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="&gt;" />
         </items>
       </ToolBar>
       <TextField layoutX="5.0" layoutY="686.0" prefHeight="31.0" prefWidth="1190.0" text="Select contact : Toto Toto" />
