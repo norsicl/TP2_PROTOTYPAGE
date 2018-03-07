@@ -10,7 +10,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="598.0" prefWidth="1169.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.Controller.ControllerMainContactPanel">
+<AnchorPane prefHeight="598.0" prefWidth="1169.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.Controller.ControllerMainPanel">
    <children>
       <SplitPane dividerPositions="0.27491408934707906" layoutY="-2.0" prefHeight="607.0" prefWidth="1169.0">
         <items>

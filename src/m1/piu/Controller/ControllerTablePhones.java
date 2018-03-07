@@ -26,9 +26,8 @@ public class ControllerTablePhones {
 
         primaryStage.setTitle("Contact manager");
         primaryStage.setScene(scene);
-        // pour récupérer un element de type Pane (conteneur)
-
-
+        primaryStage.setResizable(false);
         primaryStage.show();
+
     }
 }

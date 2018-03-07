@@ -2,34 +2,35 @@ package m1.piu.Controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 
-public class ControllerMainFrame  {
-
+public class ControllerMainFrame {
 
     public void openContactPanel(MouseEvent mouseEvent) {
-        Parent root = null;
+
         Stage primaryStage = new Stage();
         try {
-            root = FXMLLoader.load(getClass().getResource("../View/FXMLMainContactPanel.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../View/FXMLMainContactPanel.fxml"));
+            Scene scene = new Scene(root, 380, 400);
+
+            primaryStage.setTitle("Contact manager");
+            primaryStage.setScene(scene);
+            primaryStage.show();
+            primaryStage.setResizable(false);
+            // pour récupérer un element de type Pane (conteneur)
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        Scene scene = new Scene(root, 800, 400);
-
-        primaryStage.setTitle("Contact manager");
-        primaryStage.setScene(scene);
-        // pour récupérer un element de type Pane (conteneur)
-
-
-        primaryStage.show();
-
     }
 }

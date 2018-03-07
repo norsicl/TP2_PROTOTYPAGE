@@ -24,7 +24,7 @@ public class ContactManagerFX extends Application {
 
 
         primaryStage.show();
-
+        primaryStage.setResizable(false);
 
         // pour afficher un message avant la fermeture de la fenetre
         primaryStage.setOnCloseRequest(( WindowEvent we ) -> { System.out.println("Fermeture de l ' application");
