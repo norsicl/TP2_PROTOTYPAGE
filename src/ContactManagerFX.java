@@ -17,7 +17,6 @@ public class ContactManagerFX extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainFrame.fxml"));
 
         //Parent children = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainPanel.fxml"));
-
         Scene scene = new Scene(root, 1200, 720);
 
         primaryStage.setTitle("Contact manager");
