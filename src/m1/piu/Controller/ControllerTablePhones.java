@@ -22,7 +22,7 @@ public class ControllerTablePhones {
             e.printStackTrace();
         }
         //Parent children = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainPanel.fxml"));
-        Scene scene = new Scene(root, 320, 220);
+        Scene scene = new Scene(root, 320, 200);
 
         primaryStage.setTitle("Contact manager");
         primaryStage.setScene(scene);
