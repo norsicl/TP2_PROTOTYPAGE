@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.Controller.FXMLMainFrame">
    <children>
       <MenuBar layoutY="-1.0" prefHeight="32.0" prefWidth="1200.0">
         <menus>
@@ -37,7 +37,6 @@
         </items>
       </ToolBar>
       <TextField layoutX="5.0" layoutY="686.0" prefHeight="31.0" prefWidth="1190.0" text="Select contact : Toto Toto" />
-      <Pane fx:id="include_panel" layoutX="5.0" layoutY="76.0" prefHeight="604.0" prefWidth="1200.0">
-      </Pane>
+       <fx:include id="mainPanel" source="FXMLMainPanel.fxml"/>
    </children>
 </Pane>

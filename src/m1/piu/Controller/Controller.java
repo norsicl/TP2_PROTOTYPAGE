@@ -1,4 +1,4 @@
-package controller;
+package m1.piu.Controller;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 

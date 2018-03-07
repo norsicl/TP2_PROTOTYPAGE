@@ -15,13 +15,11 @@ public class ContactManagerFX extends Application {
     public void start(Stage primaryStage) throws Exception {
         // soit on peut prendre le Interface_FB_LN.fxml
         Parent root = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainFrame.fxml"));
-
         //Parent children = FXMLLoader.load(getClass().getResource("m1/piu/View/FXMLMainPanel.fxml"));
         Scene scene = new Scene(root, 1200, 720);
 
         primaryStage.setTitle("Contact manager");
         primaryStage.setScene(scene);
-
         // pour récupérer un element de type Pane (conteneur)
 
 

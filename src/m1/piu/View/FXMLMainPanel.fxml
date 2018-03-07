@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<AnchorPane prefHeight="607.0" prefWidth="1166.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLMainPanel">
+<AnchorPane prefHeight="607.0" prefWidth="1166.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.Controller.FXMLMainContactPanel">
    <children>
       <TableView layoutX="337.0" layoutY="19.0" prefHeight="130.0" prefWidth="803.0">
         <columns>
